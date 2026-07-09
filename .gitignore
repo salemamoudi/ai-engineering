@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Virtual Environment
+.venv/
+ai-engineering/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files
+*.csv
+*.json
+*.h5
+*.pb
+*.pkl
+*.pickle
+*.npz
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Outputs
+outputs/
+dist/
+build/

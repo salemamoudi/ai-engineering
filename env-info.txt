@@ -1,0 +1,21 @@
+=========================================
+AI Engineering - Lesson 1 Environment
+Date: $(date)
+=========================================
+
+Python Version: $(python --version)
+Virtual Environment: $(which python)
+uv Version: $(uv --version)
+fnm Version: $(fnm --version)
+Node Version: $(node --version)
+npm Version: $(npm --version)
+pnpm Version: $(pnpm --version)
+Rust Version: $(rustc --version)
+Cargo Version: $(cargo --version)
+Julia Version: $(julia --version)
+
+=========================================
+Installed Python Packages:
+=========================================
+$(uv pip freeze)
+=========================================
