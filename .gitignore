@@ -1,23 +1,25 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
+# Virtual environments
 .venv/
+venv/
+env/
 ENV/
 env.bak/
 venv.bak/
 
-# Jupyter Notebooks
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
 .ipynb_checkpoints/
 *.ipynb
 
-# Virtual Environment
-.venv/
-ai-engineering/
+# Environment variables
+.env
+.env.local
 
 # IDE
 .vscode/
@@ -25,7 +27,15 @@ ai-engineering/
 *.swp
 *.swo
 
-# Data files
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data
 *.csv
 *.json
 *.h5
@@ -34,35 +44,13 @@ ai-engineering/
 *.pickle
 *.npz
 
-# Model files
+# Models
 *.pt
 *.pth
 *.onnx
 *.tflite
 
-# Environment variables
-.env
-.env.local
-
-# Logs
-*.log
-logs/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Temporary files
-tmp/
-temp/
-*.tmp
-
 # Large files
 *.zip
 *.tar.gz
 *.rar
-
-# Outputs
-outputs/
-dist/
-build/
