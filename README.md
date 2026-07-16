@@ -79,6 +79,21 @@ This repository contains my work as I progress through the **AI Engineering from
 - Installed helpful extensions (Prettier, Black, Error Lens)
 - Set up Jupyter in VS Code
 - Tested Python debugging
+#### Lesson 09: Data Management
+- Installed Hugging Face `datasets` library
+- Learned to load datasets with `load_dataset()`
+- Handled Hugging Face server timeout issues gracefully
+- Created local datasets using pandas
+- Explored dataset structure (features, size, splits)
+- Analyzed data using pandas (`df.describe()`, `df.head()`)
+- Calculated text statistics (length, word count)
+- Built reusable data pipeline class
+- Split data into train/test sets with `train_test_split()`
+- Created feature extraction (word count, basic preprocessing)
+- Learned data versioning best practices
+- Saved datasets to CSV for reuse#
+
+|
 ## 📊 Progress Tracker
 
 | Phase | Topic | Status |
@@ -92,6 +107,8 @@ This repository contains my work as I progress through the **AI Engineering from
 | Lesson 06 | Python Environments | ✅ Done |
 | Lesson 07 | Docker for AI | ✅ Done |
 | Lesson 08 | Editor Setup | ✅ Done |
+| Lesson 09 | Data Management | ✅ Done |
+
 ## 🛠️ Environment
 
 - **OS:** WSL Ubuntu 22.04
