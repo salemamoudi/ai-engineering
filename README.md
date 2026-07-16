@@ -92,7 +92,19 @@ This repository contains my work as I progress through the **AI Engineering from
 - Created feature extraction (word count, basic preprocessing)
 - Learned data versioning best practices
 - Saved datasets to CSV for reuse#
-
+#### Lesson 10: Terminal & Shell
+- Mastered essential terminal navigation (`pwd`, `ls`, `cd`)
+- Learned file management (`touch`, `cp`, `mv`, `rm`)
+- Used viewing commands (`cat`, `head`, `tail`, `grep`)
+- Practiced piping and redirection (`|`, `>`, `>>`)
+- Set and used environment variables (`$PATH`, `$HOME`)
+- Managed processes (`ps`, `top`, `kill`)
+- Changed file permissions (`chmod`, `chown`)
+- Created shell aliases for common commands
+- Built a shell script (`ai_utils.sh`)
+- Learned command history and shortcuts
+- Created terminal cheatsheet for AI engineering
+- Integrated AI-specific commands (Ollama, Docker, Jupyter)
 |
 ## 📊 Progress Tracker
 
@@ -108,6 +120,7 @@ This repository contains my work as I progress through the **AI Engineering from
 | Lesson 07 | Docker for AI | ✅ Done |
 | Lesson 08 | Editor Setup | ✅ Done |
 | Lesson 09 | Data Management | ✅ Done |
+| Lesson 10 | Terminal & Shell | ✅ Done |
 
 ## 🛠️ Environment
 
