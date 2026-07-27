@@ -52,3 +52,5 @@ logs/
 *.zip
 *.tar.gz
 *.rar
+.env
+.env
