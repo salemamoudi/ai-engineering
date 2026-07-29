@@ -1,3 +1,64 @@
+# Virtual environments
 .venv/
 venv/
-...
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Data
+*.csv
+*.json
+*.h5
+*.pb
+*.pkl
+*.pickle
+*.npz
+
+# Models
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+
+# Ollama models
+.ollama/
+ollama.log
+
+# Docker
+Dockerfile
+.dockerignore
