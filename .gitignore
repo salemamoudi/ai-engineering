@@ -11,9 +11,9 @@ __pycache__/
 *.pyd
 .Python
 
-# Jupyter
+# Jupyter Notebooks - Keep notebooks, ignore checkpoints
 .ipynb_checkpoints/
-*.ipynb
+*.ipynb_checkpoints
 
 # Environment variables
 .env
@@ -54,3 +54,29 @@ logs/
 *.rar
 .env
 .env
+
+# Test environments
+test_env/
+test_reqs/
+*.env
+*.venv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
