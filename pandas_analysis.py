@@ -9,44 +9,41 @@ print("=" * 50)
 data = {
     "text": [
         "This movie was absolutely amazing! The acting was superb.",
-        "Terrible film, complete waste of time.",
-        "Great acting and an incredible story.",
-        "I hated every minute of it.",
-        "Pretty good, I recommend it.",
-        "Not my cup of tea, but well made.",
-        "Couldn't stop watching! Brilliant!",
-        "Underwhelming. Expected much more.",
-        "A masterpiece of modern cinema.",
-        "Too long and slow paced."
+        "Terrible film, complete waste of time. I walked out early.",
+        "Great acting and an incredible story. Highly recommend!",
+        "I hated every minute of it. Boring and predictable.",
+        "Pretty good, I recommend it to anyone who likes this genre.",
+        "Not my cup of tea, but well made and acted.",
+        "Couldn't stop watching! Brilliant from start to finish.",
+        "Underwhelming. Expected much more from the director.",
+        "A masterpiece of modern cinema. Must watch!",
+        "Too long and slow paced. Could have been shorter."
     ],
     "label": [1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
 }
 
 df = pd.DataFrame(data)
 
-print(f"\n📊 DataFrame shape: {df.shape}")
-print(f"\nFirst 5 rows:")
-print(df.head())
+print(f"\n📊 DataFrame Info:")
+print(f"   Shape: {df.shape}")
+print(f"   Columns: {df.columns.tolist()}")
 
-# Analyze text length
+print(f"\n📊 First 3 rows:")
+print(df.head(3))
+
+# Analyze text lengths
 df['text_length'] = df['text'].str.len()
-print(f"\n📊 Text length statistics:")
-print(df['text_length'].describe())
+df['word_count'] = df['text'].str.split().str.len()
+
+print(f"\n📊 Text Statistics:")
+print(df[['text_length', 'word_count']].describe())
 
 # Label distribution
-print(f"\n📊 Label distribution:")
+print(f"\n📊 Label Distribution:")
 print(df['label'].value_counts())
 
-# Group by label
-print(f"\n📊 Average text length by label:")
+# Average text length by label
+print(f"\n📊 Average Text Length by Label:")
 print(df.groupby('label')['text_length'].mean())
-
-# Find longest and shortest reviews
-longest_idx = df['text_length'].idxmax()
-shortest_idx = df['text_length'].idxmin()
-print(f"\n📊 Longest review ({df.loc[longest_idx, 'text_length']} chars):")
-print(f"  {df.loc[longest_idx, 'text'][:100]}...")
-print(f"\n📊 Shortest review ({df.loc[shortest_idx, 'text_length']} chars):")
-print(f"  {df.loc[shortest_idx, 'text']}")
 
 print("\n✅ Analysis complete!")
