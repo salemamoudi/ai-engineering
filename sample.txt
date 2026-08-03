@@ -1,5 +1,5 @@
-Line 1: This is a sample file
-Line 2: It contains multiple lines
-Line 3: For practicing terminal commands
-Line 4: AI Engineering is fun!
-Line 5: Terminal skills are essential
+line 1: This is a sample file
+line 2: It contains multiple files
+line 3: For practicing terminal commands
+line 4: AI Engineering is fun!
+line 5: Terminal Skills are essential for AI Engineers
