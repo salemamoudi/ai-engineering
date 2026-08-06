@@ -1,21 +1,22 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true
-        },
-        {
-            "name": "Python: Jupyter Notebook",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": false
-        }
-    ]
+"version": "0.2.0",
+"configurations": [
+{
+"name": "Python: Current File",
+"type": "python",
+"request": "launch",
+"program": "${file}",
+"console": "integratedTerminal",
+"justMyCode": true
+},
+{
+"name": "Python: Debug with Args",
+"type": "python",
+"request": "launch",
+"program": "${file}",
+"console": "integratedTerminal",
+"args": ["--verbose", "data.csv"],
+"justMyCode": true
+}
+]
 }
